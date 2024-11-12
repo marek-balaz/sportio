@@ -1,0 +1,35 @@
+"title_overview"="Overview";
+"title_settings"="Settings";
+
+"soon_title" = "Work in progress";
+"soon_subtitle" = "This feature will be available soon.";
+
+"theme_system"="System";
+"theme_dark"="Dark";
+"theme_light"="Light";
+
+"activity_empty"="No recorded activities yet";
+"activity_header"="Check your sporting activities";
+"activity_subtitle"="Welcome 👋🏻";
+"activity_add_title"="Add new activity";
+"activity_edit_title"="Edit new activity";
+"activity_form_name"="Sport activity";
+"activity_form_location"="Location";
+"activity_form_date_from"="Date from";
+"activity_form_date_to"="Date to";
+"activity_form_storage"="Storage";
+"activity_save_btn"="Save record";
+
+"global_save"="Save";
+"global_edit"="Edit";
+"global_cancel"="Cancel";
+
+"global_unexpected_error"="Unexpected error";
+"global_ok"="OK";
+"global_not_available"="n/a";
+"global_try_again"="Try again";
+
+"error_not_found"="Not found.";
+"error_user_not_found"="User not found";
+"error_not_supported"="Not supported";
+"error_form_validation"="Fill all the fields";

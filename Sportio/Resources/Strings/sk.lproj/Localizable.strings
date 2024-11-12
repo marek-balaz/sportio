@@ -1,0 +1,36 @@
+"title_overview"="Prehľad";
+"title_settings"="Nastavenia";
+
+"soon_title" = "Pracujeme na tom";
+"soon_subtitle" = "Táto funkcia bude čoskoro dostupná.";
+
+"theme_system"="Systém";
+"theme_dark"="Tmavý";
+"theme_light"="Svetlý";
+
+"activity_empty"="Zatiaľ žiadne zaznamenané aktivity";
+"activity_header"="Skontrolujte svoje športové aktivity";
+"activity_subtitle"="Vitajte 👋🏻";
+"activity_add_title"="Pridať novú aktivitu";
+"activity_edit_title"="Upraviť novú aktivitu";
+"activity_form_name"="Športová aktivita";
+"activity_form_location"="Miesto";
+"activity_form_date_from"="Dátum od";
+"activity_form_date_to"="Dátum do";
+"activity_form_storage"="Úložisko";
+"activity_save_btn"="Uložiť záznam";
+
+"global_save"="Uložiť";
+"global_edit"="Upraviť";
+"global_cancel"="Zrušiť";
+
+"global_unexpected_error"="Neočakávaná chyba";
+"global_ok"="OK";
+"global_not_available"="n/a";
+"global_try_again"="Skúsiť znova";
+
+"error_not_found"="Nenájdené.";
+"error_user_not_found"="Používateľ nebol nájdený";
+"error_not_supported"="Nepodporované";
+"error_form_validation"="Vyplňte všetky polia";
+
