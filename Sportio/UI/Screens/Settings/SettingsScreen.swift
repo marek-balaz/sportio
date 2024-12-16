@@ -29,3 +29,7 @@ extension SettingsScreen {
         )
     }
 }
+
+#Preview {
+    SettingsScreen()
+}

@@ -9,29 +9,6 @@ import Combine
 import Foundation
 import Alamofire
 
-@propertyWrapper
-struct Atomic<Value> {
-    private var value: Value
-    private let lock = NSLock()
-
-    init(wrappedValue: Value) {
-        self.value = wrappedValue
-    }
-
-    var wrappedValue: Value {
-        get {
-            lock.lock()
-            defer { lock.unlock() }
-            return value
-        }
-        set {
-            lock.lock()
-            defer { lock.unlock() }
-            value = newValue
-        }
-    }
-}
-
 final class NetworkInterceptor: RequestInterceptor, @unchecked Sendable {
     
     let retryLimit = 3
@@ -77,17 +54,15 @@ final class NetworkInterceptor: RequestInterceptor, @unchecked Sendable {
                     error: error,
                     completion: completion
                 )
+                return
             } else if statusCode >= 500, !isRetrying {
                 completion(.retryWithDelay(self.retryDelay))
-            } else {
-                session.cancelAllRequests()
-                completion(.doNotRetry)
+                return
             }
-        } else {
-            // Exceeded retry limit, do not retry
-            session.cancelAllRequests()
-            completion(.doNotRetry)
         }
+        
+        session.cancelAllRequests()
+        completion(.doNotRetry)
     }
         
     private func determineError(

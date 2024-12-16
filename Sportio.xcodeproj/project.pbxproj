@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC3A5B9D2CE4BF2F009D9172 /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A5B9C2CE4BF2F009D9172 /* Atomic.swift */; };
 		BCCF9C972CE367EB009BBF43 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF9C312CE367EB009BBF43 /* APIKeys.swift */; };
 		BCCF9C982CE367EB009BBF43 /* EnvironmentValuesExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF9C332CE367EB009BBF43 /* EnvironmentValuesExtensions.swift */; };
 		BCCF9C992CE367EB009BBF43 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF9C342CE367EB009BBF43 /* UserDefaultsExtension.swift */; };
@@ -78,6 +79,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC3A5B9C2CE4BF2F009D9172 /* Atomic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atomic.swift; sourceTree = "<group>"; };
 		BCCF9B772CE36743009BBF43 /* Sportio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sportio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCCF9C312CE367EB009BBF43 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
 		BCCF9C332CE367EB009BBF43 /* EnvironmentValuesExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValuesExtensions.swift; sourceTree = "<group>"; };
@@ -404,8 +406,8 @@
 			isa = PBXGroup;
 			children = (
 				BCCF9C7A2CE367EB009BBF43 /* Router */,
-				BCCF9C7B2CE367EB009BBF43 /* OverviewRootView.swift */,
 				BCCF9C7C2CE367EB009BBF43 /* Routes.swift */,
+				BCCF9C7B2CE367EB009BBF43 /* OverviewRootView.swift */,
 				BCCF9C7D2CE367EB009BBF43 /* SettingsRootView.swift */,
 			);
 			path = Navigation;
@@ -468,6 +470,7 @@
 				BCCF9C8E2CE367EB009BBF43 /* Log.swift */,
 				BCCF9C8F2CE367EB009BBF43 /* OnFirstAppearModifier.swift */,
 				BCCF9C902CE367EB009BBF43 /* Store.swift */,
+				BC3A5B9C2CE4BF2F009D9172 /* Atomic.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -595,6 +598,7 @@
 				BCCF9CA82CE367EB009BBF43 /* LoginWebRepository.swift in Sources */,
 				BCCF9CA92CE367EB009BBF43 /* StubLoginWebRepository.swift in Sources */,
 				BCCF9CAA2CE367EB009BBF43 /* StubUsersDBRepository.swift in Sources */,
+				BC3A5B9D2CE4BF2F009D9172 /* Atomic.swift in Sources */,
 				BCCF9CAB2CE367EB009BBF43 /* StubUsersWebRepository.swift in Sources */,
 				BCCF9CAC2CE367EB009BBF43 /* UsersDBRepository.swift in Sources */,
 				BCCF9CAD2CE367EB009BBF43 /* UsersWebRepository.swift in Sources */,
@@ -790,7 +794,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -821,7 +825,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
